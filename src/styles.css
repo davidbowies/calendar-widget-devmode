@@ -1,0 +1,61 @@
+body {
+    font-family: sans-serif;
+    background: #f9f9f9;
+    display: flex;
+    justify-content: center;
+    padding: 40px;
+  }
+  
+  .calendar-container {
+    background: white;
+    border-radius: 12px;
+    padding: 24px;
+    width: 360px;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+  }
+  
+  .calendar-header, .calendar-actions, .quick-select {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 16px;
+  }
+  
+  .nav-button, .tab, .primary, .secondary {
+    padding: 8px 12px;
+    border-radius: 6px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .tab {
+    background: #f1f1f1;
+  }
+  
+  .primary {
+    background: #006b52;
+    color: white;
+  }
+  
+  .secondary {
+    background: #e0e0e0;
+  }
+  
+  .calendar-grid {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    gap: 8px;
+    text-align: center;
+  }
+  
+  .date {
+    padding: 8px;
+    border-radius: 6px;
+    background: #e8f5f0;
+  }
+  
+  .date.faded {
+    color: #ccc;
+    background: none;
+  }
+  
