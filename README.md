@@ -25,9 +25,10 @@ Die Komponente besteht aus folgenden Elementen:
 | ✅ Tokens/Styles| Farben, Typografie, Spacing als Styles angelegt    |
 | ✅ Dev Mode     | Komponenten sauber benannt und dev-ready strukturiert |
 
+
 ## 📸 Vorschau
 
-> (Hier kannst du später einen Screenshot deines Widgets einfügen)
+![Calendar Widget Preview](./design/calendar-figma-preview.png)
 
 ## 🧠 Warum das Projekt?
 Dieses Mini-Projekt zeigt, wie man Komponenten nicht nur visuell sauber, sondern auch **developer-kompatibel** in Figma erstellt. Es eignet sich als Vorlage für Designsystem
